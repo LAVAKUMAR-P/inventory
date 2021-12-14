@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap');
+.image5 {
+    height: 100vh;
+  }
+.C-center{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+  .Contact-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.8em;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: red;
+    font-size: 1.8em;
+    font-weight: 800;
+  
+  }
+  .C-container{
+      background-color: #F5FFFA;
+      padding: 2em 4em 2em 2em;
+      margin: 5px;
+      border-radius: 10px;
+      line-height:2em;
+      margin-top: 0px;
+      color: black;
+      font-family: 'Outfit', sans-serif !important;
+  }
+
+  .C-title{
+      display: flex;
+      justify-content: center;
+  }
+
+  .C-font{
+      font-size: 1.2em;
+      font-family: 'Roboto', sans-serif;
+      
+  }
+
+  .C-mail{
+    display: flex;
+    grid-template-columns: 2fr;
+    /* grid-gap: 20px; */
+    gap: 20px;
+    justify-content: space-between;
+    margin-top: 1em;
+  }
+
+  .C-icon{
+      font-size:1.3em;
+      margin:0.3em;
+  }
+
+  @media screen and (min-device-width: 270px) and (max-device-width: 660px) {
+    .C-container{
+        width: 80%;
+        padding: 1em;
+        margin: 5px;
+        border-radius: 10px;
+        line-height:2em;
+        
+    }
+    .C-mail{
+        display: grid;
+        grid-template-columns: 1fr;
+        /* grid-gap: 20px; */
+        gap: 20px;
+        justify-content:none;
+        margin-top: 0em;
+      }
+
+      .C-font{
+        font-size: 1em;
+        font-family: 'Roboto', sans-serif;
+        
+    }
+    .C-center{
+        display: grid;
+        place-items: center;
+    }
+    }

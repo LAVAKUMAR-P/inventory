@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap');
+
+td,tr,th{
+    min-width: 200px;
+    max-width: 400px;
+    overflow-wrap: break-word;
+    border: 5px solid blue;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+}
+
+td:hover{
+    background-color: #F5FFFA;
+    
+}
+
+.H-tablePosition{
+  margin: 1em;
+  overflow-x: auto;
+  display: grid;
+  place-items: center;
+}
+
+.H-overall{
+  height: 100vh;
+
+}
+.H-title{
+  font-family: 'Outfit', sans-serif;
+  font-weight: 800;
+  color: blue;
+  display: flex;
+  justify-content: center;
+  font-size: 1.8em;
+}
+.H-button-title{
+  font-family: 'Outfit', sans-serif;
+  font-weight: 800;
+  color: blue;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.8em;
+}
+.H-button-title-margin{
+  margin-right: 10px;
+}
+@media screen and (max-device-width:990px) {
+  td,tr,th{
+    min-width: 100px;
+      max-width: 20px;
+     
+  }
+}
+
