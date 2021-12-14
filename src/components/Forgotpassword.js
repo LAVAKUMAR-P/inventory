@@ -26,6 +26,7 @@ function Forgotpassword() {
                 );
                 setShowData("Check your mail id for reset link");
                 setShow(true);
+                setLoading(false)
               } catch (error) {
                 setLoading(false)
                 console.log("error");
