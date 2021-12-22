@@ -133,7 +133,7 @@ function Home() {
          Loading ? <Loading_page/>:<div className='H-overall'>
          
          <secttion className="H-tablePosition">
-           <h4>HI WECOME TO INVENTORY MANAGEMENT APP , {window.localStorage.getItem("name")}</h4>
+           <h4>HI WELCOME TO INVENTORY MANAGEMENT APP , {window.localStorage.getItem("name")}</h4>
 
          <table  className="H-tablesize" >
     <thead>
